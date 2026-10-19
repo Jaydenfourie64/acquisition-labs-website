@@ -37,28 +37,33 @@
 
 :root {
   --radius: 0.625rem;
-  /* Acquisition Labs original dark navy and pale blue brand palette */
-  --background: #030d1a;
-  --foreground: #f4f7fb;
-  --card: #071321;
-  --card-foreground: #f4f7fb;
-  --popover: #071321;
-  --popover-foreground: #f4f7fb;
-  --primary: #8dbfe4;
-  --primary-foreground: #061321;
-  --blue-soft: #8dbfe4;
-  --secondary: #0d1b2b;
-  --secondary-foreground: #f4f7fb;
-  --muted: #0d1b2b;
-  --muted-foreground: #a7b4c4;
-  --accent: #8dbfe4;
-  --accent-foreground: #061321;
+  /* Dark palette matched to the Acquisition Labs wordmark */
+  --background: oklch(0.16 0.033 255);
+  --foreground: oklch(0.98 0.003 250);
+  --card: oklch(0.205 0.037 255);
+  --card-foreground: var(--foreground);
+  --popover: oklch(0.23 0.037 255);
+  --popover-foreground: var(--foreground);
+  --primary: oklch(0.78 0.072 242);
+  --primary-foreground: var(--background);
+  --blue-soft: oklch(0.86 0.06 240);
+  --secondary: oklch(0.25 0.035 255);
+  --secondary-foreground: var(--foreground);
+  --muted: var(--secondary);
+  --muted-foreground: oklch(0.76 0.024 250);
+  --accent: var(--primary);
+  --accent-foreground: var(--background);
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: #f4f7fb;
-  --border: rgb(141 191 228 / 16%);
-  --input: rgb(141 191 228 / 22%);
-  --ring: #8dbfe4;
-}
+  --destructive-foreground: var(--foreground);
+  --border: oklch(0.8 0.03 250 / 18%);
+  --input: oklch(0.8 0.03 250 / 28%);
+  --ring: var(--primary);
+  --funnel-line: oklch(0.78 0.072 242 / 32%);
+  --funnel-wall: oklch(0.98 0.003 250 / 15%);
+  --funnel-particle: oklch(0.98 0.003 250 / 48%);
+  --funnel-accent: oklch(0.78 0.072 242 / 80%);
+  --funnel-glow: oklch(0.78 0.072 242 / 90%);
+  --funnel-clear: oklch(0.78 0.072 242 / 0%);
 
 @theme {
   --font-display: "Space Grotesk", sans-serif;
