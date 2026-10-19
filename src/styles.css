@@ -58,6 +58,7 @@
   --border: rgb(141 191 228 / 16%);
   --input: rgb(141 191 228 / 22%);
   --ring: #8dbfe4;
+}
 
 @theme {
   --font-display: "Space Grotesk", sans-serif;
