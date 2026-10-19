@@ -37,27 +37,27 @@
 
 :root {
   --radius: 0.625rem;
-  /* Colour scheme 2: Nordic Minimalist */
+  /* Acquisition Labs brand palette: navy, pale blue, and off-white */
   --background: #f8f9fa;
   --foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #0f172a;
   --popover: #ffffff;
   --popover-foreground: #0f172a;
-  --primary: #8da9c4;
+  --primary: #17365d;
   --primary-foreground: #ffffff;
-  --blue-soft: #6f8daa;
+  --blue-soft: #8da9c4;
   --secondary: #eef2f5;
   --secondary-foreground: #0f172a;
   --muted: #eef2f5;
   --muted-foreground: #526176;
-  --accent: #8da9c4;
+  --accent: #dbe7f2;
   --accent-foreground: #0f172a;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: #0f172a;
   --border: rgb(15 23 42 / 12%);
   --input: rgb(15 23 42 / 16%);
-  --ring: #8da9c4;
+  --ring: #17365d;
 }
 
 @theme {
