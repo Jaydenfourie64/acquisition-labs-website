@@ -86,7 +86,7 @@ function AcquisitionLabsLanding() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <a href="#top" className="flex items-center">
-            <img src={logoAsset} alt="Acquisition Labs" className="h-9 w-auto brightness-0 invert" />
+            <img src={logoAsset} alt="Acquisition Labs" className="h-9 w-auto" />
           </a>
           <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
             <a href="#results" className="transition-colors hover:text-foreground">
