@@ -1,0 +1,29 @@
+# Roadmap
+
+- [x] Use the approved Leadora logo in the nav and footer
+- [x] Reviews: written reviews with 5 yellow stars and names
+- [x] Remove every dash from the webpage copy
+- [x] Say "we" instead of "I" everywhere
+- [x] Transparent background for the logo shown on the webpage
+- [x] Apply colour scheme 2, Nordic Minimalist, across the webpage
+- [x] Rebrand the webpage from Leadora to BlackJack Media
+- [x] Apply colour scheme 3, Midnight VIP, across the webpage
+- [x] Use the selected BJ Cards logo with transparency on the webpage
+- [x] Keep the official BlackJack Media logo on a solid background
+- [x] Rebrand from BlackJack Media to Lead Acquisition
+- [x] Revert to colour scheme 2, Nordic Minimalist
+- [x] Design the Lead Acquisition logo: solid file in Files, transparent on the webpage
+- [x] Update the site icon to the new brand
+- [x] Rebrand the webpage from Lead Acquisition to Acquisition Labs
+- [x] Design the Acquisition Labs logo with solid and transparent versions
+- [x] Replace unverified agency results with sourced Meta advertiser examples and a clear disclaimer
+- [x] Replace invented reviews with honest illustrative client scenarios
+- [ ] Confirm the Acquisition Labs email address and domain
+- [x] Add founder photo and bio to the About section
+- [x] Add a validated consultation request form
+- [x] Show the complete founder photo and refine the founder profile details
+- [x] Preserve the current webpage version before changing the top animation
+- [x] Build and test a clearer 3D lead journey from attention to qualified conversation
+- [x] Add subtle reveal animations as page sections enter the viewport
+- [x] Replay scroll reveals in both directions with vertical movement
+- [x] Restore the original animated funnel at the top of the page
