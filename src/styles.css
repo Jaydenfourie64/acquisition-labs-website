@@ -64,6 +64,7 @@
   --funnel-accent: oklch(0.78 0.072 242 / 80%);
   --funnel-glow: oklch(0.78 0.072 242 / 90%);
   --funnel-clear: oklch(0.78 0.072 242 / 0%);
+}
 
 @theme {
   --font-display: "Space Grotesk", sans-serif;
