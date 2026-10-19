@@ -37,28 +37,27 @@
 
 :root {
   --radius: 0.625rem;
-  /* Acquisition Labs brand palette: navy, pale blue, and off-white */
-  --background: #f8f9fa;
-  --foreground: #0f172a;
-  --card: #ffffff;
-  --card-foreground: #0f172a;
-  --popover: #ffffff;
-  --popover-foreground: #0f172a;
-  --primary: #17365d;
-  --primary-foreground: #ffffff;
-  --blue-soft: #8da9c4;
-  --secondary: #eef2f5;
-  --secondary-foreground: #0f172a;
-  --muted: #eef2f5;
-  --muted-foreground: #526176;
-  --accent: #dbe7f2;
-  --accent-foreground: #0f172a;
+  /* Acquisition Labs original dark navy and pale blue brand palette */
+  --background: #030d1a;
+  --foreground: #f4f7fb;
+  --card: #071321;
+  --card-foreground: #f4f7fb;
+  --popover: #071321;
+  --popover-foreground: #f4f7fb;
+  --primary: #8dbfe4;
+  --primary-foreground: #061321;
+  --blue-soft: #8dbfe4;
+  --secondary: #0d1b2b;
+  --secondary-foreground: #f4f7fb;
+  --muted: #0d1b2b;
+  --muted-foreground: #a7b4c4;
+  --accent: #8dbfe4;
+  --accent-foreground: #061321;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: #0f172a;
-  --border: rgb(15 23 42 / 12%);
-  --input: rgb(15 23 42 / 16%);
-  --ring: #17365d;
-}
+  --destructive-foreground: #f4f7fb;
+  --border: rgb(141 191 228 / 16%);
+  --input: rgb(141 191 228 / 22%);
+  --ring: #8dbfe4;
 
 @theme {
   --font-display: "Space Grotesk", sans-serif;
