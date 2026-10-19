@@ -12,7 +12,7 @@ import { FunnelCanvas } from "../components/FunnelCanvas";
 import { ConsultationForm } from "../components/ConsultationForm";
 import { ScrollReveal } from "../components/ScrollReveal";
 import logoAsset from "@/assets/acquisition-labs-logo-transparent.png";
-import founderAsset from "@/assets/founder.jpg.asset.json";
+import founderAsset from "@/assets/founder.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -207,7 +207,7 @@ function AcquisitionLabsLanding() {
             <div className="relative overflow-visible">
               <div className="overflow-hidden rounded-md border border-border/60 bg-muted">
               <img
-                src={founderAsset.url}
+                src={founderAsset}
                 alt="Jayden Fourie, Founder and CEO of Acquisition Labs"
                   className="aspect-[892/1307] h-auto w-full object-contain"
               />
