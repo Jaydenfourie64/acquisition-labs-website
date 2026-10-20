@@ -37,33 +37,33 @@
 
 :root {
   --radius: 0.625rem;
-  /* Dark palette matched to the Acquisition Labs wordmark */
-  --background: oklch(0.16 0.033 255);
-  --foreground: oklch(0.98 0.003 250);
-  --card: oklch(0.205 0.037 255);
-  --card-foreground: var(--foreground);
-  --popover: oklch(0.23 0.037 255);
-  --popover-foreground: var(--foreground);
-  --primary: oklch(0.78 0.072 242);
-  --primary-foreground: var(--background);
-  --blue-soft: oklch(0.86 0.06 240);
-  --secondary: oklch(0.25 0.035 255);
-  --secondary-foreground: var(--foreground);
-  --muted: var(--secondary);
-  --muted-foreground: oklch(0.76 0.024 250);
-  --accent: var(--primary);
-  --accent-foreground: var(--background);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: var(--foreground);
-  --border: oklch(0.8 0.03 250 / 18%);
-  --input: oklch(0.8 0.03 250 / 28%);
-  --ring: var(--primary);
-  --funnel-line: oklch(0.78 0.072 242 / 32%);
-  --funnel-wall: oklch(0.98 0.003 250 / 15%);
-  --funnel-particle: oklch(0.98 0.003 250 / 48%);
-  --funnel-accent: oklch(0.78 0.072 242 / 80%);
-  --funnel-glow: oklch(0.78 0.072 242 / 90%);
-  --funnel-clear: oklch(0.78 0.072 242 / 0%);
+  /* Acquisition Labs brand palette */
+  --background: #040E1B;
+  --foreground: #F7F9FA;
+  --card: #0B1828;
+  --card-foreground: #F7F9FA;
+  --popover: #111E2E;
+  --popover-foreground: #F7F9FA;
+  --primary: #8FBEE2;
+  --primary-foreground: #040E1B;
+  --blue-soft: #AED7F5;
+  --secondary: #162232;
+  --secondary-foreground: #F7F9FA;
+  --muted: #162232;
+  --muted-foreground: #A6B3C0;
+  --accent: #8FBEE2;
+  --accent-foreground: #040E1B;
+  --destructive: #f87171;
+  --destructive-foreground: #040E1B;
+  --border: rgb(247 249 250 / 18%);
+  --input: rgb(247 249 250 / 28%);
+  --ring: #8FBEE2;
+  --funnel-line: rgb(143 190 226 / 52%);
+  --funnel-wall: rgb(174 215 245 / 34%);
+  --funnel-particle: rgb(247 249 250 / 78%);
+  --funnel-accent: rgb(143 190 226 / 88%);
+  --funnel-glow: rgb(143 190 226 / 90%);
+  --funnel-clear: rgb(143 190 226 / 0%);
 }
 
 @theme {
