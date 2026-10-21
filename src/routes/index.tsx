@@ -355,7 +355,7 @@ function AcquisitionLabsLanding() {
       {/* Footer */}
       <footer className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-muted-foreground md:flex-row">
-          <img src={logoAsset} alt="Acquisition Labs" className="h-8 w-auto" />
+          <img src={logoAsset} alt="Acquisition Labs" className="h-8 w-auto brightness-0 invert" />
           <span>© {new Date().getFullYear()} Acquisition Labs. All rights reserved.</span>
           <a href="mailto:hello.acquisitionlabs@gmail.com" className="transition-colors hover:text-blue-soft">
             hello.acquisitionlabs@gmail.com
