@@ -8,7 +8,6 @@ import {
   MapPin,
   Search,
 } from "lucide-react";
-import { FunnelCanvas } from "../components/FunnelCanvas";
 import { ConsultationForm } from "../components/ConsultationForm";
 import { ScrollReveal } from "../components/ScrollReveal";
 import founderAsset from "@/assets/founder.jpg";
@@ -112,10 +111,6 @@ function AcquisitionLabsLanding() {
 
       {/* Hero headline */}
       <section id="top" className="relative overflow-hidden pt-16">
-        <div className="absolute inset-0 opacity-70">
-          <FunnelCanvas />
-        </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background" />
         <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-32 text-center md:py-44">
           <span className="mb-6 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold tracking-widest text-blue-soft uppercase">
             Client Acquisition Through Meta Ad Funnels
