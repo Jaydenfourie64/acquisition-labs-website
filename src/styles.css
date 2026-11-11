@@ -37,33 +37,33 @@
 
 :root {
   --radius: 0.625rem;
-  /* Acquisition Labs brand palette */
-  --background: #040E1B;
-  --foreground: #F7F9FA;
-  --card: #0B1828;
-  --card-foreground: #F7F9FA;
-  --popover: #111E2E;
-  --popover-foreground: #F7F9FA;
-  --primary: #8FBEE2;
-  --primary-foreground: #040E1B;
-  --blue-soft: #AED7F5;
-  --secondary: #162232;
-  --secondary-foreground: #F7F9FA;
-  --muted: #162232;
-  --muted-foreground: #A6B3C0;
-  --accent: #8FBEE2;
-  --accent-foreground: #040E1B;
-  --destructive: #f87171;
-  --destructive-foreground: #040E1B;
-  --border: rgb(247 249 250 / 18%);
-  --input: rgb(247 249 250 / 28%);
-  --ring: #8FBEE2;
-  --funnel-line: rgb(143 190 226 / 52%);
-  --funnel-wall: rgb(174 215 245 / 34%);
-  --funnel-particle: rgb(247 249 250 / 78%);
-  --funnel-accent: rgb(143 190 226 / 88%);
-  --funnel-glow: rgb(143 190 226 / 90%);
-  --funnel-clear: rgb(143 190 226 / 0%);
+  /* Acquisition Labs: cream, ink black and burnt orange */
+  --background: #F3EEE3;
+  --foreground: #111111;
+  --card: #F8F5EF;
+  --card-foreground: #111111;
+  --popover: #FBF8F2;
+  --popover-foreground: #111111;
+  --primary: #D9541E;
+  --primary-foreground: #FFFFFF;
+  --blue-soft: #D9541E;
+  --secondary: #E8DFD0;
+  --secondary-foreground: #111111;
+  --muted: #EAE2D6;
+  --muted-foreground: #625B52;
+  --accent: #D9541E;
+  --accent-foreground: #FFFFFF;
+  --destructive: #B42318;
+  --destructive-foreground: #FFFFFF;
+  --border: rgb(17 17 17 / 14%);
+  --input: rgb(17 17 17 / 22%);
+  --ring: #D9541E;
+  --funnel-line: rgb(17 17 17 / 30%);
+  --funnel-wall: rgb(17 17 17 / 12%);
+  --funnel-particle: rgb(17 17 17 / 65%);
+  --funnel-accent: rgb(217 84 30 / 88%);
+  --funnel-glow: rgb(217 84 30 / 35%);
+  --funnel-clear: rgb(217 84 30 / 0%);
 }
 
 @theme {
