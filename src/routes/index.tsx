@@ -11,7 +11,6 @@ import {
 import { FunnelCanvas } from "../components/FunnelCanvas";
 import { ConsultationForm } from "../components/ConsultationForm";
 import { ScrollReveal } from "../components/ScrollReveal";
-import logoAsset from "@/assets/acquisition-labs-logo-transparent.png";
 import founderAsset from "@/assets/founder.jpg";
 
 export const Route = createFileRoute("/")({
@@ -86,7 +85,7 @@ function AcquisitionLabsLanding() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <a href="#top" className="flex items-center">
-            <img src={logoAsset} alt="Acquisition Labs" className="h-9 w-auto brightness-0 invert" />
+            <span className="flex flex-col font-display leading-none text-foreground"><span className="text-sm font-bold tracking-[0.18em]">ACQUISITION</span><span className="mt-1 flex items-center justify-center text-[9px] font-medium tracking-[0.55em]">LABS</span><span className="mx-auto mt-1.5 h-0.5 w-10 bg-primary" /></span>
           </a>
           <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
             <a href="#results" className="transition-colors hover:text-foreground">
@@ -355,7 +354,7 @@ function AcquisitionLabsLanding() {
       {/* Footer */}
       <footer className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-muted-foreground md:flex-row">
-          <img src={logoAsset} alt="Acquisition Labs" className="h-8 w-auto brightness-0 invert" />
+          <span className="flex flex-col font-display leading-none text-foreground"><span className="text-sm font-bold tracking-[0.18em]">ACQUISITION</span><span className="mt-1 flex items-center justify-center text-[9px] font-medium tracking-[0.55em]">LABS</span><span className="mx-auto mt-1.5 h-0.5 w-10 bg-primary" /></span>
           <span>© {new Date().getFullYear()} Acquisition Labs. All rights reserved.</span>
           <a href="mailto:hello.acquisitionlabs@gmail.com" className="transition-colors hover:text-blue-soft">
             hello.acquisitionlabs@gmail.com
