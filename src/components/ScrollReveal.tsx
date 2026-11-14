@@ -16,25 +16,25 @@ const delayClasses = {
 
 export function ScrollReveal({ children, className, delay = 0 }: ScrollRevealProps) {
   const elementRef = useRef<HTMLDivElement>(null);
-  const [revealState, setRevealState] = useState<"idle" | "waiting" | "visible">("idle");
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const element = elementRef.current;
     if (!element) return;
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setRevealState("visible");
+      setIsVisible(true);
       return;
     }
 
-    setRevealState("waiting");
-
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (!entry) return;
-        setRevealState(entry.isIntersecting ? "visible" : "waiting");
+        if (entry?.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
       },
-      { threshold: 0.14, rootMargin: "0px 0px -7% 0px" },
+      { threshold: 0.12, rootMargin: "0px 0px -5% 0px" },
     );
 
     observer.observe(element);
@@ -44,11 +44,11 @@ export function ScrollReveal({ children, className, delay = 0 }: ScrollRevealPro
   return (
     <div
       ref={elementRef}
-      data-reveal-state={revealState}
+      data-reveal-state={isVisible ? "visible" : "waiting"}
       className={cn(
         "transition-[opacity,transform] duration-700 ease-out motion-reduce:transform-none motion-reduce:opacity-100 motion-reduce:transition-none",
-        revealState === "waiting" && "-translate-y-6 opacity-0",
-        revealState === "visible" && "translate-y-0 opacity-100",
+        !isVisible && "translate-y-8 opacity-0",
+        isVisible && "translate-y-0 opacity-100",
         delayClasses[delay],
         className,
       )}
