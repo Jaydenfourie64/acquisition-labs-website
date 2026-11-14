@@ -70,7 +70,7 @@ function AcquisitionLabsLanding() {
 
       <main>
         <section id="top" className="relative flex min-h-[760px] items-end overflow-hidden bg-[#242522] pt-28 text-white md:min-h-[850px]">
-          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2400&q=85')" }} />
+          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/cape-town-hero.jpg')" }} />
           <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-black/10" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/15" />
           <div className="relative mx-auto w-full max-w-7xl px-6 pb-24 pt-28 lg:px-10 lg:pb-32">
@@ -118,7 +118,7 @@ function AcquisitionLabsLanding() {
         </section>
 
         <section className="relative overflow-hidden bg-[#E8DFD0] px-6 py-24 md:py-32">
-          <div className="absolute right-0 top-0 h-full w-[42%] bg-cover bg-center opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80')" }} />
+          <div className="absolute right-0 top-0 h-full w-[42%] bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/architecture-01.jpg')" }} />
           <div className="relative mx-auto max-w-7xl">
             <ScrollReveal className="max-w-3xl">
               <p className="section-kicker">The acquisition journey</p>
@@ -162,23 +162,23 @@ function AcquisitionLabsLanding() {
             </ScrollReveal>
             <div className="mt-16 grid gap-8 lg:grid-cols-2">
               <ScrollReveal className="border border-white/20 bg-white/[0.035] p-7 md:p-10">
-                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Case study 01</p><h3 className="mt-3 font-display text-3xl font-medium">MDM Traders</h3><p className="mt-2 text-xs text-white/50">Seminar registrations · 23 Oct – 14 Nov 2026</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
+                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Campaign results</p><h3 className="mt-3 font-display text-3xl font-medium">MDM Traders</h3><p className="mt-2 text-xs text-white/50">Seminar registrations · 23 Oct – 14 Nov 2026</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
                 <div className="mt-10 grid grid-cols-2 gap-7">
                   <div><p className="font-display text-5xl font-medium text-[#E56A39] md:text-6xl">612</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Completed registrations</p></div>
                   <div><p className="font-display text-5xl font-medium md:text-6xl">R7.30</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Cost per registration</p></div>
                   <div><p className="font-display text-2xl font-medium">R4,469.24</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Ad spend</p></div>
                   <div><p className="font-display text-2xl font-medium">85,703</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Reach</p></div>
                 </div>
-                <p className="mt-8 border-t border-white/15 pt-5 text-xs leading-6 text-white/45">Meta Ads Manager export. 1,580 landing page views recorded during the reporting period. Registration events are not represented as paid attendance or sales.</p>
+                
               </ScrollReveal>
               <ScrollReveal className="border border-white/20 bg-white/[0.035] p-7 md:p-10">
-                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Case study 02</p><h3 className="mt-3 font-display text-3xl font-medium">Ruben</h3><p className="mt-2 text-xs text-white/50">Lead generation · 14-day campaign</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
+                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Campaign results</p><h3 className="mt-3 font-display text-3xl font-medium">Ruben</h3><p className="mt-2 text-xs text-white/50">Lead generation · 14-day campaign</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
                 <div className="mt-10 grid grid-cols-2 gap-7">
                   <div><p className="font-display text-5xl font-medium text-[#E56A39] md:text-6xl">53</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Leads generated</p></div>
                   <div><p className="font-display text-5xl font-medium md:text-6xl">R12.87</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Cost per lead</p></div>
                   <div className="col-span-2"><p className="font-display text-2xl font-medium">R682.15</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Total ad spend</p></div>
                 </div>
-                <p className="mt-8 border-t border-white/15 pt-5 text-xs leading-6 text-white/45">Campaign figures supplied for the 14-day reporting period. Lead volume does not imply qualified opportunities or closed sales.</p>
+                
               </ScrollReveal>
             </div>
             <p className="mt-8 text-[10px] leading-5 text-white/40">Results are specific to these campaigns and are not a guarantee of future performance. Outcomes vary by offer, audience, creative, budget and sales follow-up.</p>
@@ -211,7 +211,7 @@ function AcquisitionLabsLanding() {
         </section>
 
         <section id="contact" className="relative overflow-hidden bg-[#242522] px-6 py-24 text-[#F3EEE3] md:py-32">
-          <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-cover bg-center opacity-20 md:block" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80')" }} />
+          <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-cover bg-center opacity-20 md:block" style={{ backgroundImage: "url('/images/architecture-02.jpg')" }} />
           <div className="relative mx-auto grid max-w-7xl gap-14 md:grid-cols-[0.85fr_1.15fr] md:gap-20">
             <ScrollReveal>
               <p className="section-kicker text-[#E56A39]">Start a conversation</p>
