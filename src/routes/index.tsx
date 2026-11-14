@@ -203,9 +203,9 @@ function AcquisitionLabsLanding() {
             </ScrollReveal>
             <ScrollReveal>
               <p className="section-kicker">Meet the founder</p>
-              <h2 className="mt-5 font-display text-4xl leading-tight font-medium md:text-6xl">A focused approach to business growth.</h2>
-              <p className="mt-7 text-lg leading-8 text-muted-foreground">Acquisition Labs was founded by Jayden Fourie with a clear focus: helping businesses create more structured, measurable ways to acquire customers.</p>
-              <p className="mt-5 text-lg leading-8 text-muted-foreground">Combining strategic thinking with performance-led execution, the goal is to build acquisition systems that connect the right businesses with the right opportunities.</p>
+              <h2 className="mt-5 font-display text-4xl leading-tight font-medium md:text-6xl">Most agencies sell you traffic. We sell you conversations.</h2>
+              <p className="mt-7 text-lg leading-8 text-muted-foreground">Traffic is easy to buy and easy to waste. A conversation with someone who wants what you sell is worth more than a thousand impressions, and our entire job is to manufacture them for you.</p>
+              <p className="mt-5 text-lg leading-8 text-muted-foreground">We build every funnel ourselves: the ads that stop the scroll, the page that earns the click, the follow up that books the call. When we work together, you'll never open an ads dashboard again. You'll just answer your phone.</p>
             </ScrollReveal>
           </div>
         </section>
