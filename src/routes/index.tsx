@@ -70,7 +70,7 @@ function AcquisitionLabsLanding() {
 
       <main>
         <section id="top" className="relative flex min-h-[760px] items-end overflow-hidden bg-[#242522] pt-28 text-white md:min-h-[850px]">
-          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/cape-town-hero.jpg')" }} />
+          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/Download%20Nature%20background,%20Nature%20wallpaper,%20Aerial%20view%20of%20a%20coastal%20city%20with%20a%20large%20port%20stadium%20and%20mountain%20backdrop%20at%20sunrise%20for%20free.jpg')" }} />
           <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-black/10" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/15" />
           <div className="relative mx-auto w-full max-w-7xl px-6 pb-24 pt-28 lg:px-10 lg:pb-32">
@@ -118,7 +118,7 @@ function AcquisitionLabsLanding() {
         </section>
 
         <section className="relative overflow-hidden bg-[#E8DFD0] px-6 py-24 md:py-32">
-          <div className="absolute right-0 top-0 h-full w-[42%] bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/architecture-01.jpg')" }} />
+          <div className="absolute right-0 top-0 h-full w-[42%] bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/architecture-01.jpg')", filter: "grayscale(1)" }} />
           <div className="relative mx-auto max-w-7xl">
             <ScrollReveal className="max-w-3xl">
               <p className="section-kicker">The acquisition journey</p>
@@ -211,7 +211,7 @@ function AcquisitionLabsLanding() {
         </section>
 
         <section id="contact" className="relative overflow-hidden bg-[#242522] px-6 py-24 text-[#F3EEE3] md:py-32">
-          <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-cover bg-center opacity-20 md:block" style={{ backgroundImage: "url('/images/architecture-02.jpg')" }} />
+          <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-cover bg-center opacity-20 md:block" style={{ backgroundImage: "url('/images/architecture-02.jpg')", filter: "grayscale(1)" }} />
           <div className="relative mx-auto grid max-w-7xl gap-14 md:grid-cols-[0.85fr_1.15fr] md:gap-20">
             <ScrollReveal>
               <p className="section-kicker text-[#E56A39]">Start a conversation</p>
