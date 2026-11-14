@@ -86,3 +86,15 @@
     scroll-behavior: smooth;
   }
 }
+
+
+@layer components {
+  .section-kicker {
+    color: var(--primary);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+}
