@@ -172,7 +172,7 @@ function AcquisitionLabsLanding() {
                 
               </ScrollReveal>
               <ScrollReveal className="border border-white/20 bg-white/[0.035] p-7 md:p-10">
-                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Campaign results</p><h3 className="mt-3 font-display text-3xl font-medium">Ruben</h3><p className="mt-2 text-xs text-white/50">Lead generation · 14-day campaign</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
+                <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] uppercase tracking-[0.22em] text-[#E56A39]">Campaign results</p><h3 className="mt-3 font-display text-3xl font-medium">NexAgentAI</h3><p className="mt-2 text-xs text-white/50">Lead generation · 14-day campaign</p></div><span className="border border-white/20 px-3 py-1 text-[9px] uppercase tracking-widest text-white/60">Meta Ads</span></div>
                 <div className="mt-10 grid grid-cols-2 gap-7">
                   <div><p className="font-display text-5xl font-medium text-[#E56A39] md:text-6xl">53</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Leads generated</p></div>
                   <div><p className="font-display text-5xl font-medium md:text-6xl">R12.87</p><p className="mt-2 text-xs uppercase tracking-wider text-white/60">Cost per lead</p></div>
