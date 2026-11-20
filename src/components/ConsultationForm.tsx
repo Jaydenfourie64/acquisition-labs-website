@@ -84,16 +84,24 @@ export function ConsultationForm() {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(payload),
       });
-      const result = (await response.json()) as { success?: string | boolean; message?: string };
+      const responseText = await response.text();
+      let result: { success?: string | boolean; message?: string } = {};
+      try {
+        result = JSON.parse(responseText) as { success?: string | boolean; message?: string };
+      } catch {
+        throw new Error(`Email service returned an unexpected response (HTTP ${response.status}).`);
+      }
       if (!response.ok || result.success === false || result.success === "false") {
-        throw new Error(result.message || "The form could not be sent. Please try again.");
+        throw new Error(result.message || `Email service rejected the request (HTTP ${response.status}).`);
       }
       setPrepared(true);
       form.reset();
       setBudget("");
-    } catch {
+    } catch (error) {
+      console.error("Acquisition Labs enquiry form submission failed:", error);
+      const detail = error instanceof Error ? error.message : "Unknown submission error";
       setSubmitError(
-        "We couldn't send your request just now. Please email hello.acquisitionlabs@gmail.com directly, or try again in a moment.",
+        `We couldn't send your request: ${detail} Please try again or email hello.acquisitionlabs@gmail.com directly.`,
       );
     } finally {
       setSubmitting(false);
