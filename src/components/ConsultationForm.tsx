@@ -160,18 +160,18 @@ export function ConsultationForm() {
         <FieldError message={errors.message} />
       </div>
       <Button type="submit" disabled={submitting} size="lg" className="mt-1 h-13 w-full rounded-sm text-base font-semibold">
-        {submitting ? "Sending your request…" : "Request Your Consultation"}
+        {submitting ? "Sending your request…" : "Send your enquiry"}
         <ArrowRight />
       </Button>
       {prepared ? (
         <p className="flex items-center gap-2 text-sm font-medium text-foreground" role="status">
           <CheckCircle2 className="h-4 w-4 text-blue-soft" />
-          Your request has been submitted. We’ll be in touch to arrange your call.
+          Your request has been submitted. We’ll review your goals and get in touch to discuss whether we’re a good fit.
         </p>
       ) : null}
       {submitError ? <p className="text-sm text-destructive" role="alert">{submitError}</p> : null}
       <p className="text-center text-xs leading-relaxed text-muted-foreground">
-        Your details are sent securely to our consultation inbox so we can follow up about your call.
+        After you submit, your enquiry is sent to our inbox. We’ll review the information and contact you to discuss fit and possible next steps.
       </p>
     </form>
   );
