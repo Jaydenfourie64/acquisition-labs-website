@@ -76,7 +76,6 @@ export function ConsultationForm() {
       message: message || "Nothing added",
       _subject: `New Acquisition Labs consultation request — ${name}`,
       _template: "table",
-      _captcha: "false",
     };
 
     try {
@@ -110,12 +109,13 @@ export function ConsultationForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Business name" name="business" error={errors.business} required />
         <Field
-          label="Website"
+          label="Website (optional)"
           name="website"
           type="url"
-          placeholder="https://"
+          placeholder="https://yourbusiness.co.za"
           error={errors.website}
         />
+        <p className="text-xs leading-relaxed text-muted-foreground">Don’t have a website? No problem — you can leave this blank.</p>
       </div>
       <div className="space-y-2">
         <Label htmlFor="budget">Monthly advertising budget</Label>
@@ -191,7 +191,7 @@ function Field({
 } & Omit<React.ComponentProps<typeof Input>, "name">) {
   return (
     <div className="space-y-2">
-      <Label htmlFor={name}>{label}</Label>
+      <Label htmlFor={name}>{label}{required ? <span className="ml-1 text-primary">*</span> : null}</Label>
       <Input
         id={name}
         name={name}
